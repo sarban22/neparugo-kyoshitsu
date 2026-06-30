@@ -140,14 +140,61 @@
     a {
       color: var(--accent2);
     }
+
+    @media (max-width: 600px) {
+
+      table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      table {
+        border: none;
+      }
+
+      tr {
+        margin-bottom: 14px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      td {
+        border: none;
+        border-bottom: 1px solid var(--line);
+        padding: 10px 14px;
+        position: relative;
+        padding-left: 45%;
+      }
+
+      td:last-child {
+        border-bottom: none;
+      }
+
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 14px;
+        font-weight: 600;
+        color: var(--accent2);
+      }
+    }
   </style>
 </head>
 
 <body>
 
   <header>
-    <h1>ネパール語教室</h1>
-    <p class="sub">初心者向け・気軽に学べるネパール語レッスン</p>
+    <h1>🇳🇵 ネパール語教室</h1>
+    <p class="sub">ネパール語レッスン(初級)</p>
   </header>
 
   <main>
@@ -171,9 +218,9 @@
           <th>場所</th>
         </tr>
         <tr>
-          <td>毎週土曜日</td>
-          <td>14:30〜16:00</td>
-          <td>4階 第1会議室</td>
+          <td data-label="曜日">毎週土曜日</td>
+          <td data-label="時間">14:30〜16:00</td>
+          <td data-label="場所">4階 第1会議室</td>
         </tr>
       </table>
     </section>
