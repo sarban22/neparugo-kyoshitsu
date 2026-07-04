@@ -24,9 +24,11 @@ body {
 }
 
 header {
-  border-bottom: 4px solid var(--accent);
-  padding: 28px 20px 18px;
-  background: linear-gradient(180deg, #fff, var(--bg));
+  background: #003893;
+  color: white;
+  padding: 40px 24px 32px;
+  position: relative;
+  overflow: hidden;
 }
 
 header h1 {
