@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 :root {
   --bg: #ffffff;
   --ink: #1a1a1a;
@@ -15,7 +16,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "Yu Gothic Medium", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-family: 'Noto Sans JP', "Yu Gothic", sans-serif;
   font-weight: 500;
   font-size: 1.15rem;
   line-height: 1.9;
