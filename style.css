@@ -157,7 +157,45 @@ footer {
 a {
   color: var(--accent2);
 }
+ol {
+  padding-left: 1.6em;
+}
 
+ol li {
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+ol li:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+ol li a {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+ol li a:nth-of-type(1) {
+  background: #e8f0fc;
+  color: #003893;
+}
+
+ol li a:nth-of-type(2) {
+  background: #fdecea;
+  color: #C0392B;
+}
+
+ol li a:nth-of-type(3) {
+  background: #f0f7e8;
+  color: #2e7d32;
+}
 @media (max-width: 600px) {
   table, thead, tbody, th, td, tr {
     display: block;
