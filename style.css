@@ -71,10 +71,14 @@ section {
 }
 
 h2 {
-  font-size: 1.4rem;
-  border-left: 6px solid var(--accent2);
-  padding-left: 10px;
-  margin-bottom: 14px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #003893;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #C0392B;
+  margin-bottom: 16px;
 }
 
 .card {
