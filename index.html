@@ -6,113 +6,128 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ネパール語教室 </title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gate.css">
 </head>
 
 <body>
+  <div id="password-gate">
+    <div class="box">
+      <h2>パスワードを入力してください</h2>
+      <input type="password" id="gate-password" placeholder="Password" autocomplete="off">
+      <button onclick="checkGatePassword()">送信</button>
+      <div class="error" id="gate-error"></div>
+    </div>
+  </div>
 
-  <header>
-    <h1><img src="https://flagcdn.com/24x18/np.png" alt="Nepal flag">ネパール語教室</h1>
-    <p class="sub">ネパール語レッスン(初級)</p>
-  </header>
+  <div id="site-content">
 
-  <main>
+    <header>
+      <h1><img src="https://flagcdn.com/24x18/np.png" alt="Nepal flag">ネパール語教室</h1>
+      <p class="sub">ネパール語レッスン(初級)</p>
+    </header>
 
-    <section>
-      <h2>受講生の皆さん</h2>
-      <p>
-        ネパール語教室へようこそ！<br>
-        これから一緒に、楽しくネパール語を学んでいきましょう。
-        文字の読み方から簡単な日常会話まで、ゆっくり・無理なくステップアップしていきます。
-        わからないことがあれば、いつでも気軽にどうぞ。
-      </p>
-    </section>
+    <main>
 
-    <section>
-      <h2>レッスン日程</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>曜日</th>
-            <th>時間</th>
-            <th>場所</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td data-label="曜日">毎週土曜日</td>
-            <td data-label="時間">14:30〜16:00</td>
-            <td data-label="場所">4階 第1会議室</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section>
-      <h2>目標</h2>
-      <p>
-        8ヶ月でネパール語の基本的な読み書きと簡単な会話ができるようになることを目標とします。
-        数字や日付、時間の表現を理解し、簡単なやり取りができるようにします。
-        また、ポスターやチラシの内容を理解し、自分で簡単なチラシやポスターを作れるようになることを目指します。
-      </p>
-    </section>
-    </section>
+      <section>
+        <h2>受講生の皆さん</h2>
+        <p>
+          ネパール語教室へようこそ！<br>
+          これから一緒に、楽しくネパール語を学んでいきましょう。
+          文字の読み方から簡単な日常会話まで、ゆっくり・無理なくステップアップしていきます。
+          わからないことがあれば、いつでも気軽にどうぞ。
+        </p>
+      </section>
 
-    <section>
-      <h2>持ち物</h2>
-      <ul>
-        <li>ノート(テーストで書いてもらったことを家でチェックしたいのでルーズリーフも持参してもらうと便利)</li>
-        <li>筆記用具</li>
-      </ul>
-    </section>
+      <section>
+        <h2>レッスン日程</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>曜日</th>
+              <th>時間</th>
+              <th>場所</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="曜日">毎週土曜日</td>
+              <td data-label="時間">14:30〜16:00</td>
+              <td data-label="場所">4階 第1会議室</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>目標</h2>
+        <p>
+          8ヶ月でネパール語の基本的な読み書きと簡単な会話ができるようになることを目標とします。
+          数字や日付、時間の表現を理解し、簡単なやり取りができるようにします。
+          また、ポスターやチラシの内容を理解し、自分で簡単なチラシやポスターを作れるようになることを目指します。
+        </p>
+      </section>
 
-    <section>
-      <h2>使用図書</h2>
-      <p>
-        野津治仁 著『ネパール語の入門』白水社<br>
-        <img src="textbook.jpg" alt="ネパール語の入門 教科書"
-          style="width: 180px; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin-bottom: 10px; display: block;">
-      </p>
-    </section>
+      <section>
+        <h2>持ち物</h2>
+        <ul>
+          <li>ノート(テーストで書いてもらったことを家でチェックしたいのでルーズリーフも持参してもらうと便利)</li>
+          <li>筆記用具</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>関連リンク</h2>
-      <p>
-        福岡よかトピア国際交流財団「みんなの掲示板<br>
-        <a href="https://www.fcif.or.jp/language/foreign-language-class/foreign-language-class-login/"
-          target="_blank">みんなの掲示板はこちら</a>
-      </p>
-    </section>
+      <section>
+        <h2>使用図書</h2>
+        <p>
+          野津治仁 著『ネパール語の入門』白水社<br>
+          <img src="textbook.jpg" alt="ネパール語の入門 教科書"
+            style="width: 180px; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin-bottom: 10px; display: block;">
+        </p>
+      </section>
 
-    <section>
-      <h4>今回の資料</h4>
-      <ol>
-        <li>
-          オリエンテーション、自己紹介<br>
-          <a href="nepali_first_class.pdf" target="_blank" download>第1回講義資料</a><br>
-          <a href="lesson1_vocabulary.pdf" target="_blank" download>第1回単語</a><br>
-          <a href="子音.pdf" target="_blank" download>子音</a><br>
-          <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSehio5C6IPzGHPqBEdRF0tvYYD-Xjad0DZ47btYRhp2n_rHmA/viewform?usp=publish-editor" -->
-          <!-- target="_blank">宿題提出 </a> -->
-          <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSehio5C6IPzGHPqBEdRF0tvYYD-Xjad0DZ47btYRhp2n_rHmA/viewform?usp=publish-editor"
+      <section>
+        <h2>関連リンク</h2>
+        <p>
+          福岡よかトピア国際交流財団「みんなの掲示板<br>
+          <a href="https://www.fcif.or.jp/language/foreign-language-class/foreign-language-class-login/"
+            target="_blank">みんなの掲示板はこちら</a>
+        </p>
+      </section>
+
+      <section>
+        <h4>今回の資料</h4>
+        <ol>
+          <li>
+            オリエンテーション、自己紹介<br>
+            <h4>2026/7/18<br></h4>
+            <a href="lesson1.pdf" target="_blank" download>第1回講義資料(母音)</a><br>
+            <a href="lesson1_vocabulary.pdf" target="_blank" download>第1回単語</a><br>
+            <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSehio5C6IPzGHPqBEdRF0tvYYD-Xjad0DZ47btYRhp2n_rHmA/viewform?usp=publish-editor" -->
+            <!-- target="_blank">宿題提出 </a> -->
+            <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSehio5C6IPzGHPqBEdRF0tvYYD-Xjad0DZ47btYRhp2n_rHmA/viewform?usp=publish-editor"
             target="_blank">宿題提出 </a> -->
-      </ol>
-    </section>
+          </li>
 
-    <section>
+          <li>
+            デーヴァナーガリー文字（母音）と発音<br>
+            <h4>2026/7/25<br></h4>
+            <a href="lesson2.pdf" target="_blank" download>第2回講義資料(子音)</a><br>
+            <!-- <a href="materials/vocab02.pdf" target="_blank">第2回単語</a><br>
+            <a href="mailto:bhandarisarwan64@gmail.com?subject=第2回宿題">宿題提出</a> -->
+          </li>
+
+          <li>
+            <h4>2026/8/1<br></h4>
+            <br>
+            <a href="lesson3.pdf" target="_blank">第3回講義資料</a><br>
+            <!-- <a href="materials/vocab03.pdf" target="_blank">第3回単語</a><br>
+            <a href="mailto:bhandarisarwan64@gmail.com?subject=第3回宿題">宿題提出</a> -->
+          </li>
+        </ol>
+      </section>
+
+      <!-- <section> -->
       <!-- <h2>学習トピック（全27回）</h2>
       <p class="note">※内容は一例です。今後変更・更新される場合があります。</p>
       <ul>
-        <li>
-          デーヴァナーガリー文字（母音）と発音<br>
-          <a href="materials/lesson02.pdf" target="_blank">第2回講義資料</a><br>　
-          <a href="materials/vocab02.pdf" target="_blank">第2回単語</a><br>
-          <a href="mailto:bhandarisarwan64@gmail.com?subject=第2回宿題">宿題提出</a>
-        </li>
-        <li>
-          子音①<br>
-          <a href="materials/lesson03.pdf" target="_blank">第3回講義資料</a><br>
-          <a href="materials/vocab03.pdf" target="_blank">第3回単語</a><br>
-          <a href="mailto:bhandarisarwan64@gmail.com?subject=第3回宿題">宿題提出</a>
-        </li>
         <li>
           子音②<br>
           <a href="materials/lesson04.pdf" target="_blank">第4回講義資料</a><br>
@@ -266,13 +281,14 @@
     </p>
     </section> -->
 
-  </main>
+    </main>
 
-  <footer>
-    ネパール語を学んで、友達をつくろう。<br>
-    © 2026 ネパール語教室
-  </footer>
-
+    <footer>
+      ネパール語を学んで、友達をつくろう。<br>
+      © 2026 ネパール語教室
+    </footer>
+  </div>
+  <script src="gate.js"></script>
 </body>
 
 </html>
